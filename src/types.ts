@@ -50,3 +50,9 @@ export interface Session {
   expiresAt: number;
   connectedAt?: number;
 }
+
+export interface Transaction {
+  toAddress: string;
+  amount: string;
+  data: string;
+}
